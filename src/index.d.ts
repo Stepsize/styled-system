@@ -437,6 +437,7 @@ declare namespace StyledSystem {
    * Utilities
    */
   export function theme(keys: string): any;
+  export function themeGet(keys: string): any;
   export function cleanElement(component: any): any;
   export function removeProps(props: any): any;
 
